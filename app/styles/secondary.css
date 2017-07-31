@@ -1,0 +1,37 @@
+@media all and (min-width:768px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+#banner {
+	background-image: url('../images/banner.jpg');
+}
+
+a:link {
+	color: green;
+	padding: 10px;
+}
+
+a:visited {
+	color: green;
+	padding: 10px;
+}
+
+a:hover {
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: blue;
+}
+
+a:active {
+	color: yellow;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: grey;
+}
+
+.navbar-inverse {
+	background-color: #fff;
+}
